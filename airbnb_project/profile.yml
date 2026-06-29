@@ -1,0 +1,15 @@
+airbnb_project:
+  outputs:
+    dev:
+      type: snowflake
+      account: AQWYEDW-ZY11947
+      user: DEVTRIPATHI
+      password: Snowflake@12345
+      role: ACCOUNTADMIN
+      database: AIRBNB
+      warehouse: SYSTEM$STREAMLIT_NOTEBOOK_WH
+      schema: dbt_schema
+      threads: 1
+
+      authenticator: snowflake
+  target: dev
